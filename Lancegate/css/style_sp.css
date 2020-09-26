@@ -1,0 +1,96 @@
+@media only screen and (max-width: 768px) {
+
+
+  #main-wrapper .promo-block {
+    width: 120%;
+  }
+  #main-wrapper .promo-block .promo-block__slide {
+    width: 120%;
+  }
+  .nav-wrapper .navbar {
+    padding: 10px 5px;
+  }
+  .nav-wrapper .logo {
+    margin-top: 5px;
+    margin-left: 13px;
+  }
+  .list-repeat__item p {
+    font-size: 8rem;
+  }
+  .container .top-bg__block {
+    padding: 50px 0 50px 0;
+  }
+  .container .top-bg__block .top-left__keyframe {
+    width: 85%;
+    padding-left: 6vw;
+  }
+  .container .top-bg__block .top-left__keyframe__inner {
+    max-width: 100%;
+  }
+  .container .top-bg__block .top-bg__block__text {
+    height: 180%;
+  }
+  .container .top-bg__block .top-bg__block__text .top-bg__block__text--slide {
+    height: 180px;
+  }
+
+  .container .top-bg__block .top-left__keyframe .row-six {
+    display: none;
+  }
+
+
+  .product-description .description-wrap {
+    width: 95%;
+  }
+  .description-row__three {
+    display: block;
+  }
+  .description-row__three .description-col__left {
+    width: 100%;
+  }
+  .description-row__three .description-col__right {
+    margin-left: 0;
+    width: 100%;
+  }
+  .description-col__right h4 {
+    font-size: 17px;
+  }
+  .description-col__list .description-col__list--item {
+    font-size: 15px;
+  }
+  .description-tips__icons .description-tips__icons--item span {
+    width: 40px;
+    height: 40px;
+    border-radius: 14px;
+  }
+  .description-tips__icons {
+    width: 100%;
+  }
+  .product-description .description-bg {
+    width: 95%;
+  }
+  .description-col__bg__img {
+    background-size: 105% 100%;
+  }
+  .description-tips__icons .description-tips__icons--item p {
+    font-size: 11px;
+  }
+
+  .secondary-content  {
+    width: 100%;
+  }
+  .secondary-content .points-text .points-text__title h3 {
+    font-size: 38px;
+    letter-spacing: 4px;
+  }
+  .secondary-content .points-text .points-text__normal p {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .secondary-content .points .points-container {
+    width: 90%;
+  }
+  .secondary-content .points-row {
+    width: 65%;
+  }
+}
