@@ -1,12 +1,12 @@
 // responsive nav bar
-$(function() {
-  let mainNav = document.getElementById("js-menu");
-  let navBarToggle = document.getElementById("js-navbar-toggle");
+// $(function() {
+//   let mainNav = document.getElementById("js-menu");
+//   let navBarToggle = document.getElementById("js-navbar-toggle");
 
-  navBarToggle.addEventListener("click", function() {
-    mainNav.classList.toggle("active");
-  });
-});
+//   navBarToggle.addEventListener("click", function() {
+//     // mainNav.classList.toggle("active");
+//   });
+// });
 
 // animated text top background image
 $(function(){
@@ -14,10 +14,10 @@ $(function(){
   ({direction:'horizontal', delay:0, timing:50});  
 });
 
-//scroll into id when click anchor
+//scroll into id on anchor click
 $(function(){
   $(".nav-links").click(function(e) {
-    e.preventDefault();
+    // e.preventDefault();
     var aid = $(this).attr("href");
     $('html,body').animate({scrollTop: $(aid).offset().top}, 1000);
   });
@@ -42,7 +42,7 @@ $(function(){
 // slick slider
 $(function() {
   $('.center').slick({
-      // autoplay: true,
+      autoplay: true,
       centerMode: true,
       centerPadding: '150px',
       slidesToShow: 2,

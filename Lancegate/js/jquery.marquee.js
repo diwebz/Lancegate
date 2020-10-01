@@ -95,7 +95,7 @@
             this.$element.css({
 
                  position : 'absolute',
-                 top : 0,
+                 top : 50,
                  left: 0
 
             });

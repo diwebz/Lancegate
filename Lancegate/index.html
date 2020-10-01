@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Lancegate</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <meta name="author" content="" />
@@ -32,34 +33,21 @@
         </div>
     </div>
     <header class="nav-wrapper">
-        <!-- <div class="company-logo"><img src="images/logo_top.png" alt="logo"></div>
-        <nav>
-            <ul class="menu">
-                <li>
-                    <a href="">LANCEGATEについて</a>
-                </li>
-                <li>
-                    <a href="">導入のメリット</a>
-                </li>
-                <li>
-                    <a href="">LANCEGATEの特徴</a>
-                </li>
-                <li>
-                    <a href="">料金</a>
-                </li>
-                <li>
-                    <a href="">03-6450-4689</a>
-                </li>
-                <li>
-                    <a href="">お問い合わせ</a>
-                </li>
-            </ul>
-        </nav> -->
         <nav class="navbar">
-            <span class="navbar-toggle" id="js-navbar-toggle">
-                    <i class="fas fa-bars"></i>
-            </span>
             <a href="#" class="logo"><img src="./images/logo_top.png" alt="logo"></a>
+            <!-- <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+            </span> -->
+            <span class="sub-nav__wrap">
+                <ul class="sub-nav" id="js-menu">
+                    <li>
+                        <a href="tel:03-6450-468"><img src="./images/icon-tel.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/icon-mail.png" alt=""></a>
+                    </li>
+                </ul>
+            </span>
             <ul class="main-nav" id="js-menu">
               <li>
                 <a href="#lancegate-about" class="nav-links">LANCEGATEについて</a>
@@ -71,11 +59,10 @@
                 <a href="#lancegate-features" class="nav-links">LANCEGATEの特徴</a>
               </li>
               <li>
-                <a href="#lancegate-price" class="nav-links">料金</a>
+                <a href="#lancegate-prices" class="nav-links">料金</a>
               </li>
               <li>
                 <a href="#lancegate-tel" class="nav-links">03-6450-4689<span>【受付時間:平日10:00~17:00】</span></a>
-                
               </li>
               <li>
                 <a href="#lancegate-mail" class="nav-links">お問い合わせ</a>
@@ -102,26 +89,7 @@
                     <div class="top-left__keyframe__inner--img">
                         <img src="./images/keyframe_img.png" alt="">
                     </div>
-                    <!-- <div class="row-one">
-                        <p class="row-one__text white">
-                            <span>実質</span>
-                            <span>費用</span>
-                        </p>
-                        <p class="row-one__text red">無料</p>
-                        <p class="row-one__text black">でウイルスから守る</p>
-                    </div>
-                    <div class="row-two">
-                        <p class="row-two__text">遂にレンタル＆販売開始 ！！</p>
-                    </div>
-                    <div class="row-three">
-                        <p class="row-three__text">非接触型 AI体温測定器&除菌センサー</p>
-                    </div>
-                    <div class="row-four">
-                        <p class="row-four__text">LANCEGATE</p>
-                    </div>
-                    <div class="row-five">
-                        <p class="row-five__text">ランスゲート</p>
-                    </div> -->
+                    
                     <div class="row-six">
                         <a href="#">
                         <div class="row-six__btn">
@@ -149,6 +117,15 @@
 
     <div id="scroll-second" class="content-wrapper">
         <section class="med-clinic">
+            <div class="row-six__sp">
+                <a href="#">
+                <div class="row-six__btn">
+                    <p class="row-six__btn__text">オンライン</br>相談受付中！</p>
+                    <img src="./images/icon-laptop.png" alt="">
+                </div>
+                <p class="row-six__text">お問い合わせ・資料請求<span>はこちら</span></p>
+                </a>
+            </div>
             <div class="med-clinic__title">
                 <h3><span>\</span> 医療機関・クリニック薬局ご担当者様 <span>/</span></h3>
                 <p><span class="med-clinic__title--numeric">7.15</span>から
@@ -274,7 +251,7 @@
         <section class="information">
             <div class="description-block">
                 <span id="lancegate-about" class="nav-id__scroll"></span>
-                <h4>01 What's Lancegate <span></span> ランスゲートについて</h4>
+                <h4>01 What's Lancegate <span></span> <br class="line-break__sp">ランスゲートについて</h4>
                 <p>コロナ自粛の後の社員、家族、お客様のリスク軽減のために。</br>
                     間近に迫った第二波の対策を。
                 </p>
@@ -409,8 +386,8 @@
         <section class="content-slider__wrapper">
             <div class="slider-heading">
                 <span id="lancegate-benefits" class="nav-id__scroll"></span>
-                <h4>02 Benefits of introducing <span></span> 導入のメリット</h4>
-                <p>入り口に設置するだけで入場者の水際対策として、体温を検知し、</br>
+                <h4>02 Benefits of introducing <span></span> <br class="line-break__sp">導入のメリット</h4>
+                <p>入り口に設置するだけで入場者の水際対策として、体温を検知し、<br class="line-break__pc">
                     入場者に対して体表面温度をお伝えできます。
                 </p>
             </div>
@@ -561,8 +538,8 @@
                 <h4>導入実積</h4>
                 <p class="product-intro__content--text">
                     医療機関や公共の交通機関、学校やオフィスビル、</br>
-                    飲食店/スーパーマーケット/商業施設など人が多く集まる場所で</br>
-                    複数同時検温を非接触でスピーディに行うことが可能です。
+                    飲食店/スーパーマーケット/商業施設など人が多く集<br class="line-break__sp">まる場所で<br class="line-break__pc">
+                    複数同時検温を非接触でスピーディに行うこ<br class="line-break__sp">とが可能です。
                 </p>
                 <div class="product-intro__content__row">
                     <div class="product-intro__col intro-col">
@@ -580,8 +557,6 @@
                         <p class="intro-col__title">オフィスビル</p>
                         <p class="intro-col__text">出勤・退勤時のスタッフの</br>検温・勤怠管理</p>
                     </div>
-                </div>
-                <div class="product-intro__content__row">
                     <div class="product-intro__col intro-col">
                         <img src="./images/product_intro4.png" alt="">
                         <p class="intro-col__title">学校</p>
@@ -607,7 +582,7 @@
                         <div class="description-col__left">
                             <div class="description-heading">
                                 <span id="lancegate-features" class="nav-id__scroll"></span>
-                                <h4>03 Features of LANCEGATE <span></span> ランスゲートの特徴</h4>
+                                <h4>03 Features of LANCEGATE <span></span> <br class="line-break__sp">ランスゲートの特徴</h4>
                             </div>
                             <h4 class="description-subheading">ハイスペックディスプレイ</h4>
                             <ul class="description-col__list">
@@ -705,7 +680,8 @@
         <section class="campaign-info">
             <div class="campaign-info__top">
                 <div class="campaign-heading">
-                    <h4>03 Features of LANCEGATE <span></span> ランスゲートの特徴</h4>
+                    <span id="lancegate-prices" class="nav-id__scroll"></span>
+                    <h4>04 Great price plan <span></span> <br class="line-break__sp">お得な料金プラン</h4>
                 </div>
                 <div class="campaign-info__top__text">
                     <h4>非接触検温、非接触消毒液、AI顔認証</h4>
@@ -833,7 +809,8 @@
                         <img src="./images/campaign_item5.png" alt="">
                     </div>
                     <div class="price-label__right">
-                        <p class="price-label__right__text--high">非接触消毒液ブリリアントクリーン（強アルカリ水）</p>
+                        <p class="price-label__right__text--high">非接触消毒液ブリリアントクリーン<br class="line-break__sp">
+                            （強アルカリ水）</p>
                         <p class="price-label__right__text--low">弊社取扱いブリリアントクリーンを注文時</p>
                         <p class="price-label__right__text">
                             10ℓ <span class="price-label__right--symbol">￥</span><span class="price-label__right__price">10,000
@@ -871,7 +848,7 @@
                 <div class="contact-btn__circle">
                     <div class="row-six">
                         <a href="#">
-                        <p class="row-six__text">助成金を活用して<br>感染症対策実施のご相談はこちら</p>
+                        <p class="row-six__text">助成金を活用して<br>感染症対策実施のご相談は<span>こちら</span></p>
                         </a>
                     </div>
                 </div>
@@ -922,7 +899,7 @@
                     </div>
                     <div class="manufacturer-text">
                         <p class="manufacturer-text__title">電話番号</p>
-                        <p class="manufacturer-text__info">045－274-4500</p>
+                        <p class="manufacturer-text__info">045-274-4500</p>
                     </div>
                     <div class="manufacturer-text">
                         <p class="manufacturer-text__title">お問い合わせ先</p>
@@ -945,7 +922,13 @@
                                 <img src="./images/icon_fax.png" alt="">
                             </div>
                             <p class="contact-info__area__box__white--text">FAX</p>
-                            <span class="contact-info__area__box__white--arrow">→</span>
+                            <div class="center-con__arrow">
+                                <div class="arrow-wrap">
+                                    <div id="cta-arrow">
+                                        <span class="arrow-right primera-right next-arrow"></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                     <div class="contact-info__area__box__text">
@@ -963,7 +946,13 @@
                                 <img src="./images/icon_email.png" alt="">
                             </div>
                             <p class="contact-info__area__box__white--text">MAIL FORM</p>
-                            <span class="contact-info__area__box__white--arrow">→</span>
+                            <div class="center-con__arrow">
+                                <div class="arrow-wrap">
+                                    <div id="cta-arrow">
+                                        <span class="arrow-right primera-right next-arrow"></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </a>
                     <div class="contact-info__area__box__text">
@@ -975,7 +964,7 @@
                     </div>
                 </div>
                 <div class="contact-info__area__box">
-                    <a href="#">
+                    <a href="tel:03-6450-468">
                         <div class="contact-info__area__box__white">
                             <div class="contact-info__area__box__white--img">
                                 <img src="./images/icon_phone.png" alt="">
@@ -1002,16 +991,18 @@
             <img src="./images/logo_footer_img.png" alt="">
         </div>
         <div class="footer-set__content">
-            <p class="footer-set__content__item">
+            <div class="footer-content__block">
+                <p class="footer-set__content__item">
                 <a href="#">会社概要</a>
-            </p>
-            <p class="footer-set__content__item">
-                <a href="#">プライバシーポリシー</a>
-            </p>
-            <p class="footer-set__content__item">
-                <a href="#">お問い合わせ</a>
-            </p>
-            <p class="footer-set__content__item">
+                </p>
+                <p class="footer-set__content__item">
+                    <a href="#">プライバシーポリシー</a>
+                </p>
+                <p class="footer-set__content__item">
+                    <a href="#">お問い合わせ</a>
+                </p>
+            </div>
+            <p class="footer-set__content__item footer-set__content__item--copyright">
                 Copyright 2020 virus-buster-labo.com
             </p>
         </div>
