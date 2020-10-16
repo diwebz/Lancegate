@@ -41,6 +41,16 @@ $(function(){
 
 // slick slider
 $(function() {
+  $('.slick-bg').slick({
+    autoplay: true,
+    autoplaySpeed: 5000,
+    fade: true,
+    arrows: false,
+    speed: 1500,
+    infinite: true,
+    cssEase: 'ease-in-out',
+    touchThreshold: 100
+  });
   $('.center').slick({
       // autoplay: true,
       centerMode: true,
