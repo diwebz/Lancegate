@@ -59,10 +59,10 @@
     /* padding: 50px 0 50px 0; */
   }
   .bg-block--1 {
-    padding: 90px 0 105px;
+    padding: 65px 0 60px;
   }
   .bg-block--2 {
-    padding: 95px 0 85px;
+    padding: 55px 0 55px;
   }
   .container .top-bg__block .top-left__keyframe {
     width: 85%;
@@ -489,7 +489,7 @@
   }
   .slider-nav__block {
     padding: 3px 3px;
-    right: 50px;
+    right: 60px;
     width: 110px;
   }
   .slider-nav__block h3 {
@@ -499,7 +499,10 @@
     font-size: 15px;
   }
   .content-slider .slide-box {
-    padding: 20px;
+    padding: 10px 10px 35px 10px;
+  }
+  .content-slider .slide-box__content .slide-box__content__text {
+    padding: 10px 10px 15px;
   }
   .content-slider .slide-box__content__text .slide-box__content__text--important {
     font-size: 14px;
