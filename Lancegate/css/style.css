@@ -15,7 +15,7 @@
     overflow: hidden;
 }
 #main-wrapper .promo-block .promo-block__slide {
-    width: 51vw;
+    width: 58vw;
     height: 40px;
     margin: 0 auto;
     display: flex;
@@ -29,6 +29,8 @@
 }
 #main-wrapper .promo-block .promo-block__slide .promo-block__slide--text {
     color: #FFF051;
+    font-size: 18px;
+    font-weight: bold;
 }
 .nav-wrapper .navbar {
   background-color: #F2F2F2;
@@ -272,6 +274,7 @@
 }
 .center-con__text {
   font-size: 0.7rem;
+  font-weight: bold;
   color: #07106C;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -368,6 +371,7 @@
 }
 .container .top-bg__block .top-bg__block__text .top-bg__block__text--slide {
   height: 350px;
+  top: 28%;
 }
 .wrapper {
   width: 2000px;
@@ -381,7 +385,7 @@
   list-style: none;
 }
 .list-repeat__item p {
-  font-size: 18rem;
+  font-size: 12vw;
   font-style: italic;
   color: #FFFFFF;
   letter-spacing: 35px;
@@ -893,7 +897,7 @@
   height: 450px;
 }
 .information .about-info {
-  margin: 65px auto;
+  margin: 65px auto -30px;
 }
 .information .about-info .about-info__description {
   text-align: center;
@@ -926,7 +930,7 @@
 }
 .information .about-info .about-info__row {
   box-sizing: border-box;
-  width: 75%;
+  width: 100%;
   margin: 20px auto;
   display: flex;
   justify-content: space-around;
@@ -984,6 +988,7 @@
   /* height: 600px;
   margin-top: 50px; */
   padding: 200px 0 40px 0;
+  margin-bottom: -50px;
   background-image: url(../images/company_points_bg.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -1088,6 +1093,8 @@
 }
 .secondary-content .points-text {
   text-align: center;
+  position: relative;
+    top: -45px;
 }
 .secondary-content .points-text .points-text__title h3 {
   font-size: 5rem;

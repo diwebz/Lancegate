@@ -17,7 +17,7 @@ $(function(){
 //scroll into id on anchor click
 $(function(){
   $(".nav-links").click(function(e) {
-    // e.preventDefault();
+    e.preventDefault();
     var aid = $(this).attr("href");
     $('html,body').animate({scrollTop: $(aid).offset().top}, 1000);
   });
@@ -42,7 +42,7 @@ $(function(){
 // slick slider
 $(function() {
   $('.center').slick({
-      autoplay: true,
+      // autoplay: true,
       centerMode: true,
       centerPadding: '150px',
       slidesToShow: 2,
