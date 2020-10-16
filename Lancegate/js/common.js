@@ -46,9 +46,11 @@ $(function() {
       centerMode: true,
       centerPadding: '150px',
       slidesToShow: 2,
+      initialSlide: 0,
       asNavFor: '.slider-for',
       dots: false,
       arrows: false,
+      rows: 0,
       focusOnSelect: true,
       responsive: [
           {
