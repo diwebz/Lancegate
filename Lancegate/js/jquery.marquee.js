@@ -27,12 +27,12 @@
 
     defaults = {
        enable : true,  //plug-in is enabled
-       direction: 'vertical',   //运动方向.  vertical : horizontal
-       itemSelecter : 'li',  //子节点选择器
-       delay: 3000,  //动画渲染延迟时间
-       speed: 2,  //动画渲染距离.
-       timing: 1, //动画渲染速率.
-       mouse: false //鼠标移入停止动画
+       direction: 'vertical',   //xx  vertical : horizontal
+       itemSelecter : 'li',  //xx
+       delay: 3000,  //xx
+       speed: 2,  //xx
+       timing: 1, //xx
+       mouse: false //xx
 
     };
 
@@ -54,7 +54,7 @@
         this.timeoutHandle;
         this.intervalHandle
 
-        if(!this.settings.enable)return; //检测插件是否开启.
+        if(!this.settings.enable)return; //xx
         this.init();
     }
 
@@ -65,7 +65,7 @@
 
             var that = this;
 
-           //子节点占用总高度.
+           //xx
             var totalSize = 0;
 
             $.each(this.$items, function(index, element){
@@ -76,15 +76,15 @@
 
             }); 
             
-            //父节点实际高度
+            //xx
             var elmentTotalSize = this.isHorizontal()
                ? this.$element.outerWidth
                : this.$element.outerHeight;
 
-            //判断子节点总高度是否大于父节点高度, 否则插件停止运行.
+            //xx
             if(totalSize < elmentTotalSize)return;
 
-            //设置动画渲染所需的CSS样式.
+            //xx
             this.$wrapper.css({
                  
                 position : 'relative',
@@ -103,10 +103,10 @@
             this.$element.css(this.isHorizontal() ? 'width' : 'height', '1000%');
 
 
-            //克隆子节点.
+            //xx
             this.cloneAllItems();
 
-            //鼠标监听
+            //xx
             if(this.settings.mouse)
                      this.addHoverEvent(this);
 
@@ -116,7 +116,7 @@
        },
 
        /**
-         * 计时器.
+         * xx
          */
         timer : function(that){
 
@@ -126,7 +126,7 @@
 
 
         /**
-         * 播放.
+         * xx
          */
         play : function(that){
 
@@ -149,7 +149,7 @@
 
 
         /**
-         * 动画渲染.
+         * xx
          */
         animate : function(target){
 
@@ -195,7 +195,7 @@
         },
 
         /**
-         * 克隆子节点
+         * xx
          */
         cloneAllItems: function(){
 
@@ -205,7 +205,7 @@
 
 
         /**
-         * 取消时钟队列.
+         * xx
          */
         clearTimeout : function(){
             
@@ -213,7 +213,7 @@
         },
 
         /**
-         * 取消定时器队列.
+         * xx
          */
         clearInterval : function(){
             
@@ -221,7 +221,7 @@
         },
         
         /**
-         * 暂停动画渲染.
+         * xx
          * @return {[type]} [description]
          */
         addHoverEvent : function(that){

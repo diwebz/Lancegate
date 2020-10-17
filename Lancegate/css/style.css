@@ -276,12 +276,12 @@
 
 .bg-block--1 {
   background-image: url(../images/top_img.png);
-  padding: 50px 20px 60px;
+  padding: 50px 0 60px;
 }
 
 .bg-block--2 {
   background-image: url(../images/top_img3.png);
-  padding: 95px 20px 85px;
+  padding: 95px 0 85px;
 }
 
 /* scroll down icon */

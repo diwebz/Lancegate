@@ -53,7 +53,8 @@
     max-height: 100%;
   }
   .list-repeat__item p {
-    font-size: 7.5rem;
+    font-size: 5.5rem;
+    opacity: 0.3;
   }
   .container .top-bg__block {
     /* padding: 50px 0 50px 0; */
@@ -79,6 +80,7 @@
   }
   .container .top-bg__block .top-bg__block__text .top-bg__block__text--slide {
     height: 180px;
+    top: 30%;
   }
   .list-repeat {
     height: 180px;
@@ -219,20 +221,20 @@
     padding: 0 0 15px 0;
   }
   .med-clinic .med-clinic__content__icon {
-    width: 68px;
-    height: 68px;
-    left: 10px;
-    top: -16px;
+    width: 80px;
+    height: 80px;
+    left: 1px;
+    top: -22px;
   }
   .med-clinic .med-clinic__content__icon .med-clinic__content__icon--text {
-    font-size: 10.5px;
-    line-height: 1.2;
+    font-size: 11px;
+    line-height: 1.5;
     top: 11px;
   }
   .med-clinic .med-clinic__content__icon img {
     padding-top: 15px;
     max-width: 100%;
-    width: 40%;
+    width: 45%;
   }
   .med-clinic .med-clinic__content__price .med-clinic__content__price--quote {
     padding: 20px 5px 5px 72px;

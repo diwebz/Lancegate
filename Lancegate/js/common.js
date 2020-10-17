@@ -42,8 +42,8 @@ $(function(){
 // slick slider
 $(function() {
   $('.slick-bg').slick({
-    autoplay: true,
-    autoplaySpeed: 5000,
+    // autoplay: true,
+    autoplaySpeed: 6000,
     fade: true,
     arrows: false,
     speed: 1500,
@@ -52,7 +52,7 @@ $(function() {
     touchThreshold: 100
   });
   $('.center').slick({
-      // autoplay: true,
+      autoplay: true,
       centerMode: true,
       centerPadding: '150px',
       slidesToShow: 2,
