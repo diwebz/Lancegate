@@ -134,7 +134,7 @@
   .description-col__bg__img {
     background-size: 105% 100%;
     background-image: linear-gradient(
-      rgba(255, 255, 255, 0.2), 
+      rgba(255, 255, 255, 0.4), 
       rgba(255, 255, 255, 0.2)
     ), url(../images/description_bg.png);
   }
@@ -545,7 +545,7 @@
     font-size: 12px;
   }
   .product-intro__content__row .product-intro__col .intro-col__text {
-    font-size: 8.5px;
+    font-size: 8px;
   }
   .description-heading {
     padding: 0 0 10px;

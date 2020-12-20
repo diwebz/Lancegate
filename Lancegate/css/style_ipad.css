@@ -1,3 +1,7 @@
+@media only screen 
+  and (min-device-width: 767px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 * {
   font-family: '小塚ゴシック', sans-serif;
   font-size: 16px;
@@ -293,7 +297,7 @@ justify-content: center;
 position: absolute;
 z-index: 6;
 right: 5%;
-top: 50%;
+top: 60%;
 cursor: pointer;
 }
 .center-con__text {
@@ -1546,7 +1550,7 @@ width: 34%;
 }
 .description-row__three .description-col__left {
 padding: 10px;
-width: 28%;
+width: 21%;
 }
 .description-row__three .description-col__right {
 width: 80%;
@@ -1621,7 +1625,7 @@ margin: 0 50px;
 padding-left: 70px;
 }
 .description-row__three .description-col__right {
-margin-left: 190px;
+margin-left: 24px;
 }
 .description-row__three .description-col__right.bg-left {
 padding-left: 70px;
@@ -1660,7 +1664,7 @@ max-width: 100%;
 .description-col__bg__img {
 width: 100%;
 background-position-x: 0px;
-background-size: 40% 100%;
+background-size: 50% 100%;
 background-image: url(../images/description_bg.png);
 background-position: left center;
 background-repeat: no-repeat;
@@ -2373,4 +2377,5 @@ display: inline-block;
 padding: 6px;
 transform: rotate(-135deg);
 -webkit-transform: rotate(-135deg);
+}
 }
